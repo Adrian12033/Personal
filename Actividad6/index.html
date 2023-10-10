@@ -1,49 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Actividad 6</title>
     <style>
-        fieldset{
+        fieldset {
             width: 100%;
             height: 100%;
         }
     </style>
 </head>
-<body>
-        <fieldset>
-            <legend>Rellenar:</legend>
-            <br>
-                <input type="radio" id="idioma" name="idioma" value="Inglés">
-            <label for="idioma">Inlgés</label><br>
-                <input type="radio" id="idioma" name="idioma" value="Alemán">
-            <label for="idioma">Alemán</label><br>
-                <input type="radio" id="idioma" name="idioma" value="Francés">
-            <label for="idioma">Francés</label><br><br>
 
-            <select name="USB" id="USB">
-                <option value="USB">USB</option>
-            </select><br><br>
-            <form action="">
-                <label for="name">Nombre:</label><br>
-                    <input type="text" id="name" name="name" value=""><br>
-                <label for="apellido">Apellidos:</label><br>
-                    <input type="text" id="apellido" name="apellido" value=""><br>
-            </form>
-        </fieldset>
-        <fieldset>
-            <legend>Indique sus preferencias por favor</legend>
-            <br>
-            <select multiple name="hm" id="hm">
-                <option value="hombre">Hombre</option>
-                <option value="mujer">Mujer</option>
-            </select><br><br>
-                <input type="checkbox">
-                <label for="mujer">Mujer</label><br>
-                <input type="checkbox">
-                <label for="hombre">Hombre</label><br><br>
-           <p>Elige la fecha: <input type="date"></p>
-        </fieldset>
+<body>
+    <fieldset>
+        <legend>Rellenar:</legend>
+        <br>
+
+        <form action="">
+            <input type="radio" id="ingles" name="idioma" value="Inglés">
+            <label for="ingles">Inlgés</label><br>
+            <input type="radio" id="aleman" name="idioma" value="Alemán">
+            <label for="aleman">Alemán</label><br>
+            <input type="radio" id="frances" name="idioma" value="Francés">
+            <label for="frances">Francés</label><br><br>
+        </form>
+
+        <select name="USB" id="USB">
+            
+            <option value="USB">USB</option>
+        </select><br><br>
+        <form action="">
+            <label for="name">Nombre:</label><br>
+            <input type="text" id="name" name="name" value=""><br>
+            <label for="apellido">Apellidos:</label><br>
+            <input type="text" id="apellido" name="apellido" value=""><br>
+        </form>
+    </fieldset>
+    <fieldset>
+        <legend>Indique sus preferencias por favor</legend>
+        <br>
+        <select multiple name="hm" id="hm">
+            <option value="hombre">Hombre</option>
+            <option value="mujer">Mujer</option>
+        </select><br><br>
+        <input type="checkbox">
+        <label for="mujer">Mujer</label><br>
+        <input type="checkbox">
+        <label for="hombre">Hombre</label><br><br>
+        <p>Elige la fecha: <input type="date"></p>
+    </fieldset>
 </body>
+
 </html>
