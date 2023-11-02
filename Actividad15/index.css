@@ -1,0 +1,56 @@
+body{
+    background-color: rgb(226, 226, 226);
+    margin: 0%;
+    padding: 0%;
+}
+header{
+    text-align: center;
+    font-size: 30px;
+}
+
+main{
+    display: flex;
+    background-color: rgb(226, 226, 226);
+    justify-content: space-between;
+    margin: 50px;
+}
+
+img{
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 50%;
+    filter: grayscale(100%);
+}
+
+div{
+    background-color: white;
+    color: black;
+    width: 300px;
+    height: 500px;
+    text-align: center;
+    box-shadow: 0 0 10px grey;
+    border-radius: 10px;
+    overflow-wrap: break-word;
+
+}
+
+div:hover{
+    transform: scale(1.1);
+    transition: transform 1s;
+}
+
+.nombre{
+    margin: -5px;
+}
+
+.rango{
+    color: blueviolet;
+    font-size: 20px;
+}
+
+.frase{
+    margin: 40px;
+}
+
