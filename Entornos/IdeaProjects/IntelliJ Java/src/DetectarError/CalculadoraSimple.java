@@ -4,7 +4,7 @@ public class CalculadoraSimple {
 
     public static void main(String[] args) {
         int a = 5;
-        int b = 0;
+        int b = 2;
 
         int suma = add(a, b);
         System.out.println("La suma de " + a + " y " + b + " es " + suma);

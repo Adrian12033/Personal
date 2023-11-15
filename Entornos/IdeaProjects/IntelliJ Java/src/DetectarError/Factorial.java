@@ -9,7 +9,7 @@ public class Factorial {
     }
 
     public static int calcularFactorial(int n) {
-        int resultado = 0;
+        int resultado = 1;
 
         for (int i = 1; i <= n; i++) {
             resultado *= i;

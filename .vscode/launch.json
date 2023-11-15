@@ -1,0 +1,63 @@
+{
+    // Use IntelliSense para saber los atributos posibles.
+    // Mantenga el puntero para ver las descripciones de los existentes atributos.
+    // Para más información, visite: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "BuscadorNumero",
+            "request": "launch",
+            "mainClass": "DetectarError.BuscadorNumero",
+            "projectName": "Personal_abf3cf96"
+        },
+        {
+            "type": "java",
+            "name": "CadenaInvertida",
+            "request": "launch",
+            "mainClass": "DetectarError.CadenaInvertida",
+            "projectName": "Personal_abf3cf96"
+        },
+        {
+            "type": "java",
+            "name": "CalculadoraSimple",
+            "request": "launch",
+            "mainClass": "DetectarError.CalculadoraSimple",
+            "projectName": "Personal_abf3cf96"
+        },
+        {
+            "type": "java",
+            "name": "ComparadorCadenas",
+            "request": "launch",
+            "mainClass": "DetectarError.ComparadorCadenas",
+            "projectName": "Personal_abf3cf96"
+        },
+        {
+            "type": "java",
+            "name": "Factorial",
+            "request": "launch",
+            "mainClass": "DetectarError.Factorial",
+            "projectName": "Personal_abf3cf96"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "Personal_abf3cf96"
+        },
+        {
+            "type": "java",
+            "name": "MiNombre",
+            "request": "launch",
+            "mainClass": "MiNombre",
+            "projectName": "Personal_abf3cf96"
+        }
+    ]
+}
