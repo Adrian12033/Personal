@@ -4,7 +4,7 @@ public class CalculadoraSimple {
 
     public static void main(String[] args) {
         int a = 5;
-        int b = 2;
+        int b = 1;
 
         int suma = add(a, b);
         System.out.println("La suma de " + a + " y " + b + " es " + suma);
@@ -14,7 +14,7 @@ public class CalculadoraSimple {
     }
 
     public static int add(int x, int y) {
-        return x * y;
+        return x + y;
     }
 
     public static int divide(int x, int y) {

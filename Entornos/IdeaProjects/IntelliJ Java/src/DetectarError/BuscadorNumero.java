@@ -17,6 +17,7 @@ public class BuscadorNumero {
     public static int buscarNumero(int[] sort, int numeroBuscado) {
         int bajo = 0;
         int alto = sort.length - 1;
+        
 
         while (bajo < alto) {
             int medio = (bajo + alto) / 2;

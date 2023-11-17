@@ -3,7 +3,7 @@ header {
     flex-direction: row;
     justify-content: space-between;
     align-self: center;
-    background-color: rgb(40, 188, 225);
+    background-color: rgb(67, 131, 248);
     color: white;
 
 }
@@ -93,19 +93,80 @@ h1{
     
 }
 
-.fondo_gris{
-    background-color: rgb(211, 211, 211);
+.contenedor{
+    width: 80%;
+    margin: auto;
+    align-items: center;
 }
 
-.fondo_blanco{
+.fondo-gris{
+    background-color: rgb(236, 236, 236);
+    display: flex;
+    flex-direction: row;
+}
+
+.tamaño-imagen{
+    width: 600px;
+    height: 400px;
+}
+
+.contenedor-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.p20{
+    padding: 20px;
+}
+
+.texto-justificado{
+    text-align: justify;
+}
+
+.margen-a-la-izquierda{
+    margin-left: 30px;
+}
+
+.margen-h1{
+    margin: auto;
+}
+
+.centrado{
+    text-align: center;
+}
+
+.borde-imagen{
+    border-radius: 10px;
+}
+
+.sombreado{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.fondo-blanco{
     background-color: white;
 }
 
-.imagen{
-    height: 300px;
-    width: 400px;
+.img-servicios{
+    width: 100px;
+    height: 100px;
+    align-items: center;
 }
 
-.ancho_margenes{
+.tamaño-servicios{
+    width: 220px;
+    height: 300px;
+}
 
+.margen-h1-servicios{
+    margin-left: 8%;
+}
+
+.color-fondo-servicios{
+    background-color: rgb(236, 236, 236);
+}
+
+.color-titulo{
+    color: rgb(52, 140, 254);
 }
