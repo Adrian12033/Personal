@@ -17,7 +17,7 @@ nav {
     align-self: center;
 }
 
-a{
+.enlaces-cabecera{
     margin: 20px;
     transition: margin-right 6s, color 3s;
     color: white;
@@ -101,8 +101,6 @@ h1{
 
 .fondo-gris{
     background-color: rgb(236, 236, 236);
-    display: flex;
-    flex-direction: row;
 }
 
 .tamaño-imagen{
@@ -118,6 +116,10 @@ h1{
 
 .p20{
     padding: 20px;
+}
+
+.p20-top{
+    padding-top: 40px;
 }
 
 .texto-justificado{
@@ -169,4 +171,68 @@ h1{
 
 .color-titulo{
     color: rgb(52, 140, 254);
+}
+
+.color-rojo{
+    background-color: white;
+}
+
+.img-portfolio{
+    width: 400px;
+    height: 300px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.tamaño-portfolio{
+    width: 400px;
+    height: 500px;
+    border-radius: 5px;
+}
+
+.margen-texto-portfolio{
+    margin: 15px;
+}
+
+.enlace-portfolio{
+    color: rgb(52, 140, 254);
+    text-decoration: none;
+}
+
+.barra-nombre{
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 10px;
+    width: 1400px;
+}
+
+.padding-abajo{
+    padding-bottom: 30px;
+}
+
+.barra-mensaje{
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 10px;
+    width: 1400px;
+    height: 200px;
+}
+
+button{
+    background-color: rgb(52, 140, 254);
+    color: white;
+    width: 1400px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.fondo-gris2{
+    background-color: rgb(59, 59, 59);
+    color: white;
+}
+
+.tamaño-texto-footer{
+    width: 300px;
 }
